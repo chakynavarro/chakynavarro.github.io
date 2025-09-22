@@ -1,0 +1,47 @@
+
+
+head{
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    
+}
+body{
+    .encabezado{display: flex;
+         gap: 15px; /* Espacio entre el h1 y h2 */
+      align-items: center; /* Alineación vertical */
+    } 
+    h1{
+        background-color: rgb(255, 118, 5);
+    }
+    background-color: lightgreen;
+    text-align: center;
+     .outer {
+      width: 100px;
+      height: 100px;
+      background-color: red;   /* círculo rojo */
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    .middle {
+      width: 60px;
+      height: 60px;
+      background-color: yellow; /* círculo amarillo */
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .inner {
+      width: 30px;
+      height: 30px;
+      background-color: red;   /* círculo rojo interior */
+      border-radius: 50%;
+    }
+
+}
