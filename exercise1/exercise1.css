@@ -7,14 +7,17 @@ head{
     
 }
 body{
-    .encabezado{display: flex;
-         gap: 15px; /* Espacio entre el h1 y h2 */
-      align-items: center; /* Alineación vertical */
-    } 
-    h1{
-        background-color: rgb(255, 118, 5);
+     .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* 2 columnas iguales */
+      gap: 60px; /* separación entre logos */
+      justify-items: center; /* centra los logos en cada celda */
+      /*margin-top: 40px;*/
     }
-    background-color: lightgreen;
+    h1{
+        background-color: rgb(255, 5, 5);
+    }
+    background-color: gold;
     text-align: center;
      .outer {
       width: 100px;
@@ -44,4 +47,14 @@ body{
       border-radius: 50%;
     }
 
+}
+footer{
+    
+    text-align: center;
+    padding: 20px;
+    .circulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
