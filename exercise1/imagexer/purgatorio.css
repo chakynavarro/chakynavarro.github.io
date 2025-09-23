@@ -6,8 +6,6 @@ head{
 .body{
     background-color: rgb(121, 204, 203);
     text-align: center;
-    
-    text-decoration-color: gold;
     .purgatorio{
         width: 300px;
         height: auto;
@@ -17,6 +15,9 @@ head{
         margin-top: 40px;/* espacio superior */
         margin-bottom: 40px; /* espacio inferior */
     }
+    
+    text-decoration-color: gold;
+    
 }
 footer{
     background-color: lightblue;
