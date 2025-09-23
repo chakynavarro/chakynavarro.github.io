@@ -7,7 +7,11 @@ head{
     
 }
 body{
-     .grid {
+    
+    background-color: gold;
+    text-align: center;
+    
+    .grid {
       display: grid;
       grid-template-columns: 1fr 1fr; /* 2 columnas */
       gap: 1715px;
@@ -66,8 +70,7 @@ body{
         
 
     }
-    background-color: gold;
-    text-align: center;
+    
      .outer {
       width: 100px;
       height: 100px;
@@ -99,12 +102,16 @@ body{
         
 }
 footer{
-    
+
     text-align: center;
-    padding: 20px;
-    .circulo{
-       
+    justify-content: center;
+    align-items: center;
+    
+    
+    circulo{
+        text-align: center ;
         justify-content: center;
-        align-items: center;
+        display:flex;
+        margin-left: 1000px;
     }
 }
