@@ -7,15 +7,52 @@ head{
     
 }
 body{
-     
-    .grid {
+     .grid {
       display: grid;
-      grid-template-columns: 1fr 1fr ; /* 2 columnas iguales */
-      gap: 1000px; /* separación entre logos */
-      justify-items: center; /* centra los logos en cada celda */
-      margin-top: 40px;/* espacio superior */
-      margin-bottom: 40px; /* espacio inferior */
+      grid-template-columns: 1fr 1fr; /* 2 columnas */
+      gap: 1715px;
+      max-width: 800px;
       
+      text-align: center;
+    }
+    .grid1{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr; /* 3 columnas */
+      gap: 5px;
+      max-width: 800px;
+      margin: 100px auto;
+      text-align: center;
+    }
+    
+
+    
+    /* Botón */
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: rgb(0, 11, 128);
+      color: gold;
+      text-decoration: none;
+      border-radius: 1px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: rgb(201, 171, 1);
+      color: red;
+      transform: scale(1.1);    
+    }
+    
+    .indice1{
+        text-align: center;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(255, 0, 0);
+        display:flex;
+
     }
     .imgexer{
         width: 20px;
@@ -66,7 +103,7 @@ footer{
     text-align: center;
     padding: 20px;
     .circulo{
-        display: flex;
+       
         justify-content: center;
         align-items: center;
     }
