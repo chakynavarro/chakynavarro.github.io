@@ -3,17 +3,17 @@ head{
     text-align: center;
     padding: 20px;
 }
-.body{
+body{
     background-color: rgb(121, 204, 203);
-    text-align: center;
-    .purgatorio{
-        width: 300px;
-        height: auto;
-        justify-content: center;
-        border: 5px solid gold;
+    text-align: center;border: 5px solid gold;
         border-radius: 20px;
         margin-top: 40px;/* espacio superior */
         margin-bottom: 40px; /* espacio inferior */
+    purgatorio{
+        width: 300px;
+        height: auto;
+        justify-content: center;
+        
     }
     
     text-decoration-color: gold;
