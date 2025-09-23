@@ -7,15 +7,27 @@ head{
     
 }
 body{
-     .grid {
+     
+    .grid {
       display: grid;
-      grid-template-columns: 1fr 1fr; /* 2 columnas iguales */
-      gap: 60px; /* separación entre logos */
+      grid-template-columns: 1fr 1fr ; /* 2 columnas iguales */
+      gap: 1000px; /* separación entre logos */
       justify-items: center; /* centra los logos en cada celda */
-      /*margin-top: 40px;*/
+      margin-top: 40px;/* espacio superior */
+      margin-bottom: 40px; /* espacio inferior */
+      
+    }
+    .imgexer{
+        width: 20px;
+        height: auto;
+       justify-content: center;
+        
     }
     h1{
         background-color: rgb(255, 5, 5);
+        color: white;
+        
+
     }
     background-color: gold;
     text-align: center;
@@ -46,7 +58,8 @@ body{
       background-color: red;   /* círculo rojo interior */
       border-radius: 50%;
     }
-
+    
+        
 }
 footer{
     
