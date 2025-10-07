@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="exercise3.js" defer></script>     
+    <link rel="stylesheet" href="exercise3.css">
+</head>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<b id="myMessage">The light is OFF ⚫</b>
+<br>
+
+<div class="boton">
+    <input type="text" id="buscador" placeholder="Buscar...">
+    <button onclick="windows.location.href='buscador.html'">Buscar</button>
+    </div>
+
+<!-- Cambia los botones para que llamen a tus funciones -->
+<button onclick="turnOn()">Turn on the light</button>
+
+<img id="myImage" src="./images3/pic_bulboff.gif" style="width:100px">
+
+<button onclick="turnOff()">Turn off the light</button>
+
+<p>  </p>
+
+</body>
+</html>
